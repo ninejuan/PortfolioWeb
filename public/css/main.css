@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    /* 스크롤바의 너비 */
+    background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    height: 30%;
+    /* 스크롤바의 길이 */
+    background: #73d887;
+    /* 스크롤바의 색상 */
+
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+    /*스크롤바 뒷 배경 색상*/
+}
+
+img {
+    border-radius: 7px;
+}
+
+.noULine {
+    text-decoration: none;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+    overflow: hidden;
+}
+
+.profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fsmain {
+    display: inline-block;
+    margin-top: 100px;
+    left: 50%;
+}
+
+body {
+    margin: 0;
+}
+
+.divsec {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.fullscr {
+    margin-top: -22px;
+    width: 100%;
+    height: 105vh;
+}
+
+.MidText {
+    text-align: center;
+}
+
+li {
+    color: white;
+}
+
+.MPageTxt {
+    margin-left: 5px;
+}
+
+.lang {
+    margin-top: -10px;
+    width: 30px;
+    height: 30px;
+}
+
+h1.intro {
+    font-size: 30px;
+}
+
+h2.intro {
+    font-size: 17px;
+}
+
+.copyright {
+    font-size: 24px;
+}
+
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    color: white;
+    font-family: 'Patrick Hand', sans-serif;
+}
+
+.pfList {
+    border: #000000 solid 2px;
+}
+
+@media all and (min-width: 768px) and (min-width: 1024px) {
+    .MPageTxt {
+        margin-left: 7px;
+    }
+
+    h2.intro {
+        font-size: 21px;
+    }
+
+    h1.intro {
+        font-size: 35px
+    }
+
+    .copyright {
+        font-size: 30px;
+    }
+}
+
+@media all and (min-width: 1025px) {
+    .MPageTxt {
+        margin-left: 40px;
+    }
+
+    h1.intro {
+        font-size: 40px;
+    }
+
+    h2.intro {
+        font-size: 20px;
+    }
+
+    .copyright {
+        font-size: 32px;
+    }
+
+    .projectDiv {
+        display: flex;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .profile {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    }
+}
+
+div.pIntroBox {
+    position: relative;
+    /* display: flex; */
+    width: 400px;
+    height: 300px;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.89);
+    /* box-shadow: -60px 0px 100px -90px #000000,
+        60px 0px 100px -90px #000000; */
+}
+
+div.pIntroText {
+    width: 400.3px;
+    height: 93px;
+    margin-top: -29.5px;
+    background-color: rgb(247, 247, 247);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
